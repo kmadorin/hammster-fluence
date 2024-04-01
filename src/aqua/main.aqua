@@ -1,0 +1,33 @@
+aqua Main
+
+import "@fluencelabs/aqua-lib/builtin.aqua"
+import "@fluencelabs/aqua-lib/subnet.aqua"
+
+use "deals.aqua"
+use "hosts.aqua"
+import "services.aqua"
+
+export callProofGenerate
+
+data Answer:
+    answer: ?[]u8
+    worker: Worker
+
+func callProofGenerate(a: []u8, b: []u8, params_bytes: []u8) -> []Answer:
+    deals <- Deals.get()
+    dealId = deals.myDeployment!.dealIdOriginal
+    answers: *Answer
+    on HOST_PEER_ID:
+        subnet <- Subnet.resolve(dealId)
+    if subnet.success == false:
+        Console.print(["Failed to resolve subnet: ", subnet.error])
+
+    for w <- subnet.workers:
+        if w.worker_id == nil:
+            answers <<- Answer(answer=nil, worker=w)
+        else:
+            on w.worker_id! via w.host_id:
+                answer <- MyService.proof_generate(a, b, params_bytes)
+                answers <<- Answer(answer=?[answer], worker=w)
+
+    <- answers

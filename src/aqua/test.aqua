@@ -1,0 +1,4 @@
+aqua Test
+
+func returnFortyTwo() -> u32:
+    <- 42
