@@ -19,7 +19,15 @@ import {
 
 
 // Functions
+export type HelloWorldParams = [name: string, config?: {ttl?: number}] | [peer: IFluenceClient$$, name: string, config?: {ttl?: number}];
+
+export type HelloWorldResult = Promise<string>;
+
 export type CallProofGenerateParams = [a: number[], b: number[], params_bytes: number[], config?: {ttl?: number}] | [peer: IFluenceClient$$, a: number[], b: number[], params_bytes: number[], config?: {ttl?: number}];
 
 export type CallProofGenerateResult = Promise<{ answer: number[] | null; worker: { host_id: string; pat_id: string; worker_id: string | null; }; }[]>;
+
+export type CallSetupParamsParams = [config?: {ttl?: number}] | [peer: IFluenceClient$$, config?: {ttl?: number}];
+
+export type CallSetupParamsResult = Promise<{ answer: number[] | null; worker: { host_id: string; pat_id: string; worker_id: string | null; }; }[]>;
 

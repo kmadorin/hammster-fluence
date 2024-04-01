@@ -411,6 +411,17 @@ pub fn verify(
 
 use std::io::Cursor;
 
+
+#[marine]
+pub fn setup_params() -> Vec<u8> {
+    // Generate setup params
+    //let params = generate_setup_params(k); 
+    //let mut buf = vec![];
+    //params.write(&mut buf).expect("Can write params");
+    //buf.to_vec()
+    vec![1u8, 2u8, 3u8]
+}
+
 #[marine]
 pub fn proof_generate(
     a: Vec<u8>, 

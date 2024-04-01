@@ -14,11 +14,11 @@ data Deals:
 func get() -> Deals:
     <- Deals(
         myDeployment=?[Deal(
-            timestamp="2024-03-31T19:21:24.266Z",
-            definition="bafkreic2f4aefzhcsk3frpksemtcepty3sgeg7xogzyhaxfdcrbfylqsra",
-            chainNetwork="local",
-            chainNetworkId=31337,
+            definition="bafkreibieaqoc2npx34woc5aqihzpfs6r77lxswbsdxcpjuf7b7zvo3sem",
+            timestamp="2024-04-01T13:58:33.977Z",
             dealIdOriginal="0xCe85503De9399D4dECa3c0b2bb3e9e7CFCBf9C6B",
-            dealId="ce85503de9399d4deca3c0b2bb3e9e7cfcbf9c6b"
+            dealId="ce85503de9399d4deca3c0b2bb3e9e7cfcbf9c6b",
+            chainNetwork="local",
+            chainNetworkId=31337
         )]
     )

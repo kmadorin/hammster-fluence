@@ -3,3 +3,4 @@ aqua Services declares *
 
 service MyService("myService"):
   proof_generate(a: []u8, b: []u8, params_bytes: []u8) -> []u8
+  setup_params() -> []u8

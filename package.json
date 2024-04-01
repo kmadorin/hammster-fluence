@@ -4,7 +4,7 @@
   "description": "## Content",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node client/index.mjs"
+    "start": "cp ./src/compiled-aqua/main.js ./src/compiled-aqua/main.mjs && node client/index.mjs"
   },
   "author": "",
   "license": "ISC",

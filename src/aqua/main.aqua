@@ -7,11 +7,16 @@ use "deals.aqua"
 use "hosts.aqua"
 import "services.aqua"
 
-export callProofGenerate
+export callProofGenerate, helloWorld, callSetupParams
 
 data Answer:
     answer: ?[]u8
     worker: Worker
+
+
+-- local
+func helloWorld(name: string) -> string:
+    <- Op.concat_strings("Hello, ", name)
 
 func callProofGenerate(a: []u8, b: []u8, params_bytes: []u8) -> []Answer:
     deals <- Deals.get()
@@ -28,6 +33,25 @@ func callProofGenerate(a: []u8, b: []u8, params_bytes: []u8) -> []Answer:
         else:
             on w.worker_id! via w.host_id:
                 answer <- MyService.proof_generate(a, b, params_bytes)
+                answers <<- Answer(answer=?[answer], worker=w)
+
+    <- answers
+
+func callSetupParams() -> []Answer:
+    deals <- Deals.get()
+    dealId = deals.myDeployment!.dealIdOriginal
+    answers: *Answer
+    on HOST_PEER_ID:
+        subnet <- Subnet.resolve(dealId)
+    if subnet.success == false:
+        Console.print(["Failed to resolve subnet: ", subnet.error])
+
+    for w <- subnet.workers:
+        if w.worker_id == nil:
+            answers <<- Answer(answer=nil, worker=w)
+        else:
+            on w.worker_id! via w.host_id:
+                answer <- MyService.setup_params()
                 answers <<- Answer(answer=?[answer], worker=w)
 
     <- answers
