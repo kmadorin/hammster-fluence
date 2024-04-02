@@ -7,5 +7,5 @@
 /.fluence/aqua-dependencies/package.json
 src/frontend/src/compiled-aqua/
 **/node_modules
-# **/target/
+**/target/
 .repl_history
