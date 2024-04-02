@@ -1,0 +1,1 @@
+cargo:rustc-env=WASI_ROOT=/Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasi-common-13.0.1/WASI

@@ -1,0 +1,10 @@
+/Users/kirillmadorin/Projects/filecoin-data-economy-hack/hammster-fluence/target/wasm32-wasi/release/deps/liblibc-466fae5d12f4bf8b.rmeta: /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.153/src/lib.rs /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.153/src/macros.rs /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.153/src/fixed_width_ints.rs /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.153/src/wasi.rs
+
+/Users/kirillmadorin/Projects/filecoin-data-economy-hack/hammster-fluence/target/wasm32-wasi/release/deps/liblibc-466fae5d12f4bf8b.rlib: /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.153/src/lib.rs /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.153/src/macros.rs /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.153/src/fixed_width_ints.rs /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.153/src/wasi.rs
+
+/Users/kirillmadorin/Projects/filecoin-data-economy-hack/hammster-fluence/target/wasm32-wasi/release/deps/libc-466fae5d12f4bf8b.d: /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.153/src/lib.rs /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.153/src/macros.rs /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.153/src/fixed_width_ints.rs /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.153/src/wasi.rs
+
+/Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.153/src/lib.rs:
+/Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.153/src/macros.rs:
+/Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.153/src/fixed_width_ints.rs:
+/Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.153/src/wasi.rs:

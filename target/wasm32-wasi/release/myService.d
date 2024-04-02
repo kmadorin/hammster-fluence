@@ -1,0 +1,1 @@
+/Users/kirillmadorin/Projects/filecoin-data-economy-hack/hammster-fluence/target/wasm32-wasi/release/myService.wasm: /Users/kirillmadorin/Projects/filecoin-data-economy-hack/hammster-fluence/src/services/myService/myService/src/main.rs

@@ -1,0 +1,10 @@
+/Users/kirillmadorin/Projects/filecoin-data-economy-hack/hammster-fluence/target/debug/deps/libwiggle-9cef09ebb2e5af8e.rmeta: /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wiggle-13.0.1/src/lib.rs /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wiggle-13.0.1/src/borrow.rs /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wiggle-13.0.1/src/error.rs /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wiggle-13.0.1/src/guest_type.rs /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wiggle-13.0.1/src/region.rs /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wiggle-13.0.1/src/wasmtime.rs
+
+/Users/kirillmadorin/Projects/filecoin-data-economy-hack/hammster-fluence/target/debug/deps/wiggle-9cef09ebb2e5af8e.d: /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wiggle-13.0.1/src/lib.rs /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wiggle-13.0.1/src/borrow.rs /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wiggle-13.0.1/src/error.rs /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wiggle-13.0.1/src/guest_type.rs /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wiggle-13.0.1/src/region.rs /Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wiggle-13.0.1/src/wasmtime.rs
+
+/Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wiggle-13.0.1/src/lib.rs:
+/Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wiggle-13.0.1/src/borrow.rs:
+/Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wiggle-13.0.1/src/error.rs:
+/Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wiggle-13.0.1/src/guest_type.rs:
+/Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wiggle-13.0.1/src/region.rs:
+/Users/kirillmadorin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wiggle-13.0.1/src/wasmtime.rs:
